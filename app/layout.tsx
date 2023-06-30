@@ -1,10 +1,10 @@
-import Navbar from "@/components/Navbar";
+import NavBar from "@/components/Navbar";
 import "./globals.css";
 import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Car Hub",
-  description: "Discover the best cars in real world"
+  description: "Discover world's best car showcase application"
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="relative">
-        <Navbar />
+        <NavBar />
         {children}
         <Footer />
       </body>
